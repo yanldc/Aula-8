@@ -1,0 +1,139 @@
+body{
+	background: linear-gradient(68.15deg, #98FB98 16.62%, #836FFF 85.61%);
+    background-position: static;
+    margin: 0;
+}
+
+header {
+	background: linear-gradient(68.15deg, #228B22 36.62%, #32CD32 95.61%);
+	padding: 5px;
+	text-align: center;
+}
+
+footer {
+	background: linear-gradient(68.15deg, #228B22 36.62%, #32CD32 95.61%);
+	padding: 25px 0px;
+	text-align: right;
+	position: absolute;
+    bottom: 10;
+    color: #FFF;
+    width: 100%;
+    height: 20px;    
+}
+
+div{
+	padding: 16px;
+}
+
+h1{
+	text-align: center;
+	font: Arial;
+	font-size: 60px;
+	color: whitesmoke;
+	text-shadow: 2px 2px 15px black;
+}
+
+h2{
+	text-align: center;
+	font: Arial;
+	font-size: 30px;
+	color: whitesmoke;
+	text-shadow: 2px 2px 15px black;
+}
+h3{
+	font: Arial;
+	text-align: center;
+	font-size: 23px;
+	padding: 30px;
+	color: blue;
+	text-shadow: 2px 2px 1px black;
+}
+
+p{
+	font: Arial;
+	text-align: left;
+	font-size: 17px;
+	padding: 30px;
+	color: whitesmoke;
+}
+
+
+
+
+
+       /* menu Principal horizontal*/
+nav{
+	background-color: #006400;
+	padding: 1px;
+}
+
+.dp-menu ul{                            
+	padding: 0;
+	background-color: #006400;
+	display: flex;
+	justify-content: center;
+}
+
+.dp-menu ul li{
+	display: inline;
+}
+
+.dp-menu ul li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10;
+	font: arial;
+	display: inline;
+	padding: 10px;
+	transition: background .7s;
+}
+
+.dp-menu ul li a:hover{
+	background-color: #008000;
+	padding: 17px;
+
+}
+
+
+                
+
+/* Imagens */
+.foto1 {
+  height: 450px;
+  padding: 30px 50px;
+}
+.foto2 {
+  height: 350px;
+  padding: 2px 2px;
+  margin-top: 60px;
+
+}
+
+
+
+/* corpo da pagina */
+.principal{
+  display: flex;
+ 	flex-direction: column;
+ 	justify-content: left;
+ 	padding: 50px;
+}
+
+
+.meio{
+  display: flex;	
+  flex-direction: row;
+  justify-content: space-around;
+  font: arial;
+  border-radius: 3px;
+  background-color: #556B2F;
+
+}
+
+.secundario{
+  display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ 	padding: 50px;
+}
